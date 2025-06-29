@@ -1,1 +1,13 @@
- 
+# Generated Xcode project files
+DerivedData/
+ThreadOn.xcodeproj/
+
+# Build artifacts
+build/
+
+# Swift Package Manager
+/.build/
+
+# CocoaPods
+Pods/
+

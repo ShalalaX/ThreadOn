@@ -1,0 +1,17 @@
+name: ThreadOn
+options:
+  bundleIdPrefix: com.example
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: '15.0'
+targets:
+  ThreadOn:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    resources: [Assets.xcassets]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.ThreadOn
+        SWIFT_VERSION: 5.0
+        INFOPLIST_FILE: Info.plist
